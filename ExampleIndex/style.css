@@ -1,0 +1,302 @@
+body{
+    margin : 0;
+    padding: 0;
+}
+.container{
+    width: 100%
+}
+#header{
+    background-color: #eaeaea;
+    width: 100%;
+    height:80px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#baslik, .logo>span{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+}
+.social{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+#nav{
+    background-color: forestgreen;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.sayfalar{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.sayfalar>div{
+    padding: 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+a{
+    color : white;
+    text-decoration: none;
+}
+.arama{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    height: 70%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#ara{
+    padding-left: 20px;
+    background-color: darkgreen;
+    border: 0px;
+    height: 28px;
+    color: white;
+}
+#buton{
+    width: 25px;
+    height: 28px;
+    border: 0px;
+}
+::placeholder{
+    color: white;
+}
+.sayfalar div:hover{
+    background-color: darkgreen;
+}
+
+.icerik{
+    background-color: #BDBDBD;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto img{
+    width: 60%;
+    height: 350px;
+}
+.baslik{
+    width: 60%;
+    height : 50px;
+    background-color: rgba(21, 20, 20, 0.74);
+    font-size: 30px;
+    color: white;
+    margin-top: -50px;
+    text-align: center;
+}
+#main{
+    background-color: #CFD8DC;
+    width: 100%;
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#haberler{
+    width: 70%;
+    height:360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+.box img{
+    width : 100%;
+    height: 100px;
+}
+h2{
+    margin: 3px;
+    color: #616161;
+}
+.box p{
+    color: #616161;
+}
+.box input{
+    background-color: green;
+    height: 30px;
+    border: 0;
+}
+#liste{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+#liste li{
+    padding: 10px 0 10px 0;
+    border-bottom: 1px dotted black;
+    color: #094ece;
+}
+#liste li:hover{
+    text-decoration: underline;
+}
+#yorumlar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#yorumlar h5:hover{
+    text-decoration: underline;
+}
+#yorumlar h5{
+    color: #094ece;
+    margin: 10px 0 0 0;
+}
+#yorumlar p{
+    color: #616161;
+    margin: 0 0 10px 0;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px dotted black;
+}
+#buttons{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+#buttons div{
+    width: 30%;
+}
+#buttons div input{
+    background-color: green;
+    height: 30px;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+hr{
+    margin: 0;
+}
+#footer{
+    background-color: #CFD8DC;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#footer_kapsayici{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#sekmeler{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;    
+}
+#sekmeler>div{
+    padding : 0 5px 0 5px;
+    font-size: 11px;
+    border-right: 1px solid #969696;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#sekmeler>div>a{
+    color:  #616161;
+}
+#sekmeler>div>a:hover{
+    text-decoration: underline;
+}
+#copyright{
+    width:50%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#copyright div{
+    font-size: 11px;
+    color:  #616161;
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: 1px solid #616161;
+}
+#copyright a{
+    font-size: 11px;
+    text-decoration: underline;
+    color : #616161;
+    font-weight: bold;
+}
+#copyright a:hover{
+    text-decoration: none;
+}
